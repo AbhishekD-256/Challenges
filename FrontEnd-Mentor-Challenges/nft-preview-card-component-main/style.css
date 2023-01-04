@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap');
+body{
+    background-color: hsl(217, 54%, 11%);
+    font-family: 'Outfit', sans-serif;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.card{
+    max-width:350px;;
+    background-color: hsl(216, 50%, 16%);
+    color: white;
+    margin: 0 auto;
+    padding: 25px;
+    box-sizing: border-box;
+    border-radius: 15px;
+    box-shadow: 0 3px 5px 3px rgba(0, 0, 0, 0.692);
+}
+.images{
+    position: relative;
+    border-radius: 10px;
+    overflow: hidden;
+}
+.big-image{
+    width: 100%;
+   display: block;
+    
+}
+.overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: hsla(178, 100%, 50%, 0.582);
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    display: none;
+}
+.overlay img{
+    position: absolute;
+    top: 130px;
+    left: 125px;
+    
+    
+  
+}
+.images:hover .overlay{
+    display: block;
+    cursor: pointer;
+}
+.info-container{
+    display: flex;
+    justify-content: space-between;
+}
+.info-container p{
+    display: inline-block;
+}
+.time, .eth{
+    display: flex;
+    align-items: center;
+}
+.eth  img{
+    margin-right: 7px;
+}
+.time p{
+    margin-left: 7px;
+}
+
+.profile{
+    display: flex;
+    align-items: center;
+}
+.profile img{
+    width: 40px;
+    border: 2px solid white;
+    border-radius: 50%;
+   margin-right:10px ;
+}
+p{
+    opacity: 0.7;
+}
+
+a{
+    text-decoration: none;
+    color: #fff;
+
+}
+a:hover{
+    color: hsl(178, 100%, 50%);
+}
+hr{
+    border-color: hsl(215, 32%, 27%);
+    border-top: none;
+}
+
+/* @media  screen and (min-width:501px) and (max-width:800px){
+    .card{
+        width: 50%;
+    }
+}
+
+@media  screen and (width:801px) {
+    .card{
+        width: 25%;
+    }
+} */

@@ -1,0 +1,82 @@
+body {
+    background-image: url(images/pattern-background-desktop.svg);
+    background-repeat: no-repeat;
+    background-color: hsl(225, 100%, 94%);
+    background-size: contain;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    max-width: 300px;
+    background-color: #fff;
+    border-radius: 10px;
+    overflow: hidden;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.image img {
+    width: 100%;
+}
+
+.content {
+    padding: 0 40px;
+    line-height: 1.1;
+}
+
+.plans {
+    background-color: hsl(225, 100%, 98%);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 10px;
+    margin-bottom: 20px;
+}
+
+.plans a {
+    padding: 10px;
+    color: hsl(245, 75%, 52%);
+}
+
+.plans a:hover {
+    text-decoration: none;
+}
+
+.price {
+    display: flex;
+    align-items: center;
+}
+
+.price img {
+    width: 40px;
+    height: 40px;
+    padding: 10px;
+
+}
+
+button {
+    width: 100%;
+    border: none;
+    background-color: hsl(245, 75%, 52%);
+    padding: 10px 0;
+    color: #fff;
+    border-radius: 7px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: hsl(224, 23%, 55%);
+}
+
+h4 a {
+    text-decoration: none;
+    color: black;
+}
+
+h4 a:hover {
+    cursor: pointer;
+    color: hsl(224, 23%, 55%);
+}
